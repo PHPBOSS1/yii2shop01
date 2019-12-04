@@ -1,6 +1,15 @@
 
 магазин с базой данных
 
+
+
+Получается только vendor\costa-rico\yii2-images\models\Image.php нужно править
+'/'.$this->getPrimaryKey().'/images/image-by-item-and-alias', меняем на
+'/'.$this->getModule()->id.'/images/image-by-item-and-alias',
+но для yii advanced
+приходится для вывода все же использовать filePath
+
+
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
